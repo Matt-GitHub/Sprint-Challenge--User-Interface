@@ -3,60 +3,153 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -66,9 +159,59 @@ p {
     line-height: 1.4;
 }
 
+/* begining of my CSS */
+
+
+/* Navigation */
+
+.head {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    margin: 20px 0px 30px 10px;
+    flex-direction: row-reverse;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+}
+
+.image {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    ;
+}
+
+/* main content */
+
 .container {
     width: 800px;
     margin: 0 auto;
+    font-weight: 700;
 }
 
 .top-content {
@@ -82,8 +225,12 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
+
+
+/* Boxes */
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +259,129 @@ p {
     justify-content: center;
 }
 
+#one {
+    background-color: teal;
+}
+
+#one:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px teal;
+    text-emphasis: bold;
+}
+
+
+#two {
+    background-color: gold;
+}
+
+#two:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px gold;
+    text-emphasis: bold;
+}
+
+
+#three {
+    background-color: cadetblue;
+}
+
+#three:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px cadetblue;
+    text-emphasis: bold;
+}
+
+
+#four {
+    background-color: coral;
+}
+
+#four:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px coral;
+    text-emphasis: bold;
+}
+
+
+#five {
+    background-color: crimson;
+}
+
+#five:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px crimson;
+    text-emphasis: bold;
+}
+
+
+#six {
+    background-color: forestgreen;
+}
+
+#six:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px forestgreen;
+    text-emphasis: bold;
+}
+
+
+#seven {
+    background-color: darkorchid;
+}
+
+#seven:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px darkorchid;
+    text-emphasis: bold;
+}
+
+
+#eight {
+    background-color: hotpink;
+}
+
+#eight:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px hotpink;
+    text-emphasis: bold;
+}
+
+
+#nine {
+    background-color: indigo;
+}
+
+#nine:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px indigo;
+    text-emphasis: bold;
+}
+
+#ten {
+    background-color: dodgerblue;
+}
+
+#ten:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px dodgerblue;
+    text-emphasis: bold;
+}
+
+
+
+/* Thats No Moon */
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +395,10 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/* footer Navigation */
+
 
 footer {
     width: 100%;
@@ -143,4 +417,105 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* About.HTML Section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.main-box {
+    display: flex;
+    margin: 30px 0px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.main-box img {
+    margin-bottom: 10px;
+}
+
+.main-box .text {
+    margin-bottom: 20px;
+}
+
+.first-two {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.second-two {
+    display: flex;
+}
+
+.main-box a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-box a:hover {
+    background-color: black;
+    color: white;
+}
+
+.strategy {
+    border-bottom: 1px dotted black;
+    padding-bottom: 25px;
+    width: 48%;
+}
+
+.how {
+    border-bottom: 1px dotted black;
+    padding-bottom: 25px;
+    width: 48%;
+    margin-left: 55px
+}
+
+.places {
+    border-bottom: 1px dotted black;
+    padding-bottom: 25px;
+    width: 48%;
+}
+
+.collaboration {
+    border-bottom: 1px dotted black;
+    padding-bottom: 25px;
+    width: 48%;
+    margin-left: 55px
+}
+
+/* Together */
+
+.together {
+    margin: 30px 0px;
+}
+
+/* about footer */
+
+footer {
+    margin-bottom: 30px;
 }

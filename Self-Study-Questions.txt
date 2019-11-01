@@ -1,0 +1,27 @@
+Matthew Bedard - Sprint Challenge
+
+Self-Study Questions:
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+	
+   Answer: Semantic HTML is a way of marking up html with tags that provide meaning to the the browser and other people reviewing or contributing to your code.
+
+
+2. Name two big differences between display: block; and display: inline;.
+	
+   Answer: Display: inline allows the programmer to set a width and height on an element while keeping it inline with other text or elements. display: block takes the element and places it on its own taking up the entire width.
+
+
+3. What are the 4 areas of the box model?
+	
+   Answer: The four elememtns of the box model are; element content, padding, border, margin.
+
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+	
+   Answer: The axis this controls is the cross axis. it works by centering all of the elements by positioning them halfway between top and bottom of parent container.
+
+
+5. Explain why git is valuable to a team of developers.
+	
+   Answer: Git is valuable to a team because it allows for remote collaboration with built in measures for source and quality control. Past itterations are easily accessible and can be reverted back to incase of bad code.

@@ -197,6 +197,7 @@ nav a:hover {
     justify-content: space-around;
 }
 
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -262,41 +263,120 @@ nav a:hover {
     background-color: teal;
 }
 
+#one:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px teal;
+    text-emphasis: bold;
+}
+
+
 #two {
     background-color: gold;
 }
+
+#two:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px gold;
+    text-emphasis: bold;
+}
+
 
 #three {
     background-color: cadetblue;
 }
 
+#three:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px cadetblue;
+    text-emphasis: bold;
+}
+
+
 #four {
     background-color: coral;
 }
+
+#four:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px coral;
+    text-emphasis: bold;
+}
+
 
 #five {
     background-color: crimson;
 }
 
+#five:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px crimson;
+    text-emphasis: bold;
+}
+
+
 #six {
     background-color: forestgreen;
 }
+
+#six:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px forestgreen;
+    text-emphasis: bold;
+}
+
 
 #seven {
     background-color: darkorchid;
 }
 
+#seven:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px darkorchid;
+    text-emphasis: bold;
+}
+
+
 #eight {
     background-color: hotpink;
 }
+
+#eight:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px hotpink;
+    text-emphasis: bold;
+}
+
 
 #nine {
     background-color: indigo;
 }
 
+#nine:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px indigo;
+    text-emphasis: bold;
+}
+
 #ten {
     background-color: dodgerblue;
 }
+
+#ten:hover {
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 30px dodgerblue;
+    text-emphasis: bold;
+}
+
 
 
 /* Thats No Moon */
